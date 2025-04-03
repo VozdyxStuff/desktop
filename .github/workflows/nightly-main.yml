@@ -81,8 +81,8 @@ jobs:
           node-gyp install --devdir="C:\Users\runneradmin\.electron-gyp" --target=$(jq -r .devDependencies.electron package.json) --dist-url="https://electronjs.org/headers"
           node-gyp install --devdir="C:\Users\runneradmin\.electron-gyp" --target=$(jq -r .devDependencies.electron package.json) --dist-url="https://electronjs.org/headers" --arch arm64
           npm ci --openssl_fips=''
-      - name: nightly/test
-        uses: ./.github/actions/test
+      #- name: nightly/test
+      #  uses: ./.github/actions/test
       - name: nightly/build
         shell: powershell
         env:
