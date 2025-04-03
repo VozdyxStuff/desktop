@@ -4,8 +4,6 @@
 
 import type {BuildConfig} from 'types/config';
 
-import {DEFAULT_ACADEMY_LINK, DEFAULT_HELP_LINK, DEFAULT_UPGRADE_LINK} from '../../common/constants';
-
 // For detailed guides, please refer to https://docs.mattermost.com/deployment/desktop-app-deployment.html
 
 /**
@@ -24,11 +22,11 @@ import {DEFAULT_ACADEMY_LINK, DEFAULT_HELP_LINK, DEFAULT_UPGRADE_LINK} from '../
  */
 const buildConfig: BuildConfig = {
     defaultServers: [
-    {
-      "name": "Permfashion",
-      "url": "https://mm.permfashion.ru/",
-    }
-  ],
+        {
+            "name": "Permfashion",
+            "url": "https://mm.permfashion.ru/",
+        }
+    ],
     helpLink: 'https://help.tppm.ru/',
     academyLink: '',
     upgradeLink: '',
