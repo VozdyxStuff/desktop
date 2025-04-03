@@ -25,7 +25,6 @@ const buildConfig: BuildConfig = {
         {
             name: 'Permfashion',
             url: 'https://mm.permfashion.ru/',
-            order: 0,
         },
     ],
     helpLink: 'https://help.tppm.ru/',
