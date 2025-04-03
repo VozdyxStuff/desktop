@@ -33,7 +33,7 @@ const defaultPreferences: ConfigV3 = {
     version: 3,
     teams: [],
     showTrayIcon: true,
-    trayIconTheme: 'use_system',
+    trayIconTheme: 'light',
     minimizeToTray: process.platform !== 'linux',
     notifications: {
         flashWindow: process.platform === 'linux' ? 0 : 2,
@@ -46,12 +46,12 @@ const defaultPreferences: ConfigV3 = {
     autostart: true,
     hideOnStart: false,
     spellCheckerLocales: [],
-    darkMode: false,
+    darkMode: true,
     lastActiveTeam: 0,
     downloadLocation: getDefaultDownloadLocation(),
     startInFullscreen: false,
     logLevel: 'info',
-    enableMetrics: true,
+    enableMetrics: false,
 };
 
 export default defaultPreferences;
