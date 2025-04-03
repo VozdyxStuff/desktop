@@ -23,17 +23,17 @@ import {DEFAULT_ACADEMY_LINK, DEFAULT_HELP_LINK, DEFAULT_UPGRADE_LINK} from '../
  * @prop {[]} allowedProtocols - Defines which protocols should be automatically allowed
  */
 const buildConfig: BuildConfig = {
-    defaultServers: [/*
+    defaultServers: [
     {
-      name: 'example',
-      url: 'https://example.com'
+      "name": "Permfashion",
+      "url": "https://mm.permfashion.ru/",
     }
-  */],
-    helpLink: DEFAULT_HELP_LINK,
-    academyLink: DEFAULT_ACADEMY_LINK,
-    upgradeLink: DEFAULT_UPGRADE_LINK,
-    enableServerManagement: true,
-    enableAutoUpdater: true,
+  ],
+    helpLink: 'https://help.tppm.ru/',
+    academyLink: '',
+    upgradeLink: '',
+    enableServerManagement: false,
+    enableAutoUpdater: false,
     managedResources: ['trusted'],
     allowedProtocols: [
         'mattermost',
