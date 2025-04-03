@@ -23,9 +23,10 @@ import type {BuildConfig} from 'types/config';
 const buildConfig: BuildConfig = {
     defaultServers: [
         {
-            "name": "Permfashion",
-            "url": "https://mm.permfashion.ru/",
-        }
+            name: 'Permfashion',
+            url: 'https://mm.permfashion.ru/',
+            order: 0,
+        },
     ],
     helpLink: 'https://help.tppm.ru/',
     academyLink: '',
